@@ -12,6 +12,7 @@ public class ProgramCovarianciaContraVariancia {
 		List<Double> myDoubles = Arrays.asList(3.14, 6.28);
 		List<Object> myObjs = new ArrayList<Object>();
 
+		// Covariância Contravariância;
 		copy(myInts, myObjs);
 		printList(myObjs);
 		copy(myDoubles, myObjs);
