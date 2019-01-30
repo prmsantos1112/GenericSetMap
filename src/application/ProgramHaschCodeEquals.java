@@ -34,7 +34,7 @@ public class ProgramHaschCodeEquals {
 		String s3 = new String ("Teste");
 		String s4 = new String ("Teste");		
 		System.out.println();		
-		System.out.println(s3 == s2);
+		System.out.println(s3 == s4);
 		System.out.println();	
 		System.out.println("--------------------");
 		
