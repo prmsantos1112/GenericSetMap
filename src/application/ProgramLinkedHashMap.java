@@ -25,7 +25,7 @@ public class ProgramLinkedHashMap {
 			while (line != null) {
 				String[] fields = line.split(",");
 				String name = fields[0];
-				int count = Integer.parseInt(fields[0]);
+				int count = Integer.parseInt(fields[1]);
 
 				if (votes.containsKey(name)) {
 					int votesSoFar = votes.get(name);
