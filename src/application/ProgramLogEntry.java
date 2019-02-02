@@ -18,6 +18,8 @@ public class ProgramLogEntry {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		
+		
 		System.out.print("Enter File Full Path: ");
 		String path = sc.nextLine();
 		

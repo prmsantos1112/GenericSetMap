@@ -1,0 +1,22 @@
+Paulo Ricardo,35
+Ricardo augusto,42
+Paulo Eduardo,63
+João Henrique,72
+Jonathan Willis,81
+Pamela Anderson,54
+Judith Mafren,21
+Alex Blue,15 
+Maria Green,22 
+Bob Brown,21 
+Alex Blue,30 
+Bob Brown,15 
+Maria Green,27 
+Maria Green,22 
+Bob Brown,25 
+Alex Blue,31
+Paulo Ricardo,34
+João Henrique,78
+João Henrique,14
+Paulo Eduardo,50
+Jonathan Willis,10
+
