@@ -2,28 +2,30 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
-import entities.MyComparator;
-import entities.ProdutctDefaultMethod;
+import entities.ProdutctFunction;
+import services.ProductService;
 
 public class ProgramFunctionInterface {
 
 	public static void main(String[] args) {
 		
-		List<ProdutctDefaultMethod> list = new ArrayList<>();
+		Locale.setDefault(Locale.US);
+		List<ProdutctFunction> list = new ArrayList<>();
 		
-		list.add(new ProdutctDefaultMethod("Tv", 900.0));
-		list.add(new ProdutctDefaultMethod("Computador", 1200.0));
-		list.add(new ProdutctDefaultMethod("Cadeira", 400.0));
-		list.add(new ProdutctDefaultMethod("Forno", 300.0));
-		list.add(new ProdutctDefaultMethod("Condicionador de Ar", 1900.0));
-		list.add(new ProdutctDefaultMethod("NoteBook", 1500.0));
-		list.add(new ProdutctDefaultMethod("Tablet", 1300.0));
+		list.add(new ProdutctFunction("Tv", 900.00));
+		list.add(new ProdutctFunction("Computador", 1200.00));
+		list.add(new ProdutctFunction("Cadeira", 400.00));
+		list.add(new ProdutctFunction("Forno", 300.00));
+		list.add(new ProdutctFunction("Condicionador de Ar", 1900.00));
+		list.add(new ProdutctFunction("NoteBook", 1500.00));
+		list.add(new ProdutctFunction("Tablet", 1300.00));
 		
-		list.sort(new MyComparator());
+		ProductService prodServ = new ProductService();
 		
-		for (ProdutctDefaultMethod produto : list) {
-			System.out.println(produto);
+		double sum = prodServ.filteredSum(list, product -> product.getPrice() < 500.0);
+		// double sum = prodServ.filteredSum(list, product -> product.getName().charAt(0) == 'T');
+			System.out.println("Sum = " + String.format("%.2f", sum));
 		}
 	}
-}
