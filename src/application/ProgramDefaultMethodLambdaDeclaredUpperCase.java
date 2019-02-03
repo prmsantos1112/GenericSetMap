@@ -3,12 +3,12 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import entities.ProdutctFuntionInterface;
-import util.UpperCaseName;
 
-public class ProgramDefaultMethod {
+public class ProgramDefaultMethodLambdaDeclaredUpperCase {
 
 	public static void main(String[] args) {
 		
@@ -23,7 +23,10 @@ public class ProgramDefaultMethod {
 		list.add(new ProdutctFuntionInterface("NoteBook", 1500.0));
 		list.add(new ProdutctFuntionInterface("Tablet", 1300.0));
 		
-		List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
+		Function <ProdutctFuntionInterface, String> function = product -> product.getName().toUpperCase();
+		
+		
+		List<String> names = list.stream().map(function).collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
 	}
