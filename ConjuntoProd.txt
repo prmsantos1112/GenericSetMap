@@ -1,0 +1,16 @@
+Tv,900.00 
+Mouse,50.00 
+Tablet,350.50 
+HD Case,80.90 
+Computer,850.00 
+Monitor,290.00
+Cadeira,350.00
+Table,120.00
+NoteBook,1200.00
+Impressora,490.00
+FletCable,80.00
+PenDrive,45.00
+Batery,150.00
+Gabinet,30.00
+MotherBoard,1700.00
+Processador,900.00
