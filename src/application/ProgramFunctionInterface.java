@@ -24,7 +24,7 @@ public class ProgramFunctionInterface {
 		
 		ProductService prodServ = new ProductService();
 		
-		double sum = prodServ.filteredSum(list, product -> product.getPrice() < 500.0);
+		double sum = prodServ.filteredSum(list, product -> product.getPrice() < 100.0);
 		// double sum = prodServ.filteredSum(list, product -> product.getName().charAt(0) == 'T');
 			System.out.println("Sum = " + String.format("%.2f", sum));
 		}
