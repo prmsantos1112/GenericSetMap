@@ -1,0 +1,14 @@
+Maria,maria@gmail.com,3200.00 
+Alex,alex@gmail.com,1900.00 
+Marco,marco@gmail.com,1700.00 
+Bob,bob@gmail.com,3500.00 
+Anna,anna@gmail.com,2800.00
+Paulo Ricardo,prmsantos@gmail.com,4500.00
+Ricardo Augusto,ricardo@gmail.com,3600.00
+Paulo Eduardo,eduardo@gmail.com,3400.00
+Evonira Santos,evosantos@gmail.com,5400.0
+Breno Eduardo,brenoedu@gmail.com,3700.00
+Jonas Caldeira,jonascal@yahoo.com, 2400.00
+Marian Street,marian@uol.com.br,1800.00
+Bredh Pit,bredh@msn.com.br,3800.00
+Tancredo Neves,tancredo@terra.com.br,2900.00
